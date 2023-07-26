@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-----title----->
+    <title>My Team</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/myTeamFavIcon.png">
+    <!-----Bootstrap icon---->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+    <!-----font-awesome icon---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-----Bootstrap5 cdn---->
+    <link href="./assets/cdn/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-----Bootstrap icon---->
+    <link rel="stylesheet" href="./assets/cdn/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+    <!-----font-awesome icon---->
+    <link rel="stylesheet" href="./assets/cdn/awesome_6.2.0_css_all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!----- AOS animations------>
+    <link href="./assets/cdn/aos.css" rel="stylesheet">
+    <!-----css------>
+    <link rel="stylesheet" type="text/css" href="./assets/css/task1.css">
+</head>
+<body>
+    <div class="wrapper">
+        <main>
+            <!--------- =============== Navbar ============= ---------->
+            <section class="navbar_section" id="navbar_section">
+                <nav class="navbar navbar-expand-lg navbar-light" id="navmenu">
+                    <div class="nav_container ">
+                       <a class="navbar-brand" href=""><img src="./assets/images/myTeamLogo.jpg" alt=""></a>
+                       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">My Task1</h5>
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="navbar-nav ">
+                                        <li class="nav-item active"> <a class="nav-link" href="#navbar_section">Home</a> </li>
+                                        <li class="nav-item"> <a class="nav-link" href="#feature_section">Features</a> </li>
+                                        <li class="nav-item"> <a class="nav-link" href="#about_section">About Us</a></li>
+                                        <li class="nav-item"> <a class="nav-link" href="#process">Process</a> </li>
+                                        <li class="nav-item"> <a class="nav-link" href="#service_section">Our Services</a> </li>
+                                        <li class="nav-item"> <a class="nav-link" href="#team_section">Our Team</a> </li>
+                                        <li class="nav-item"> <a class="nav-link" href="#contact_section">Contacts</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </div>
+                </nav>
+            </section>
+            <!------------ End ----------->
+
+            <!-- --------------Back to top------------------ -->
+            <a onclick="topFunction()" id="myBtn"><i class="fa-solid fa-angles-up"></i></a>
+
+            <!----------- Carousel ------->
+            <section class="carousel_section">
+               <!------------ tab view -------------->
+               <div class="tab_view_carousel">
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel"  data-bs-interval="3000">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="carousel_content">
+                        <h1 class="fadeInDown">Business<br> Solutions for You</h1>
+                        <p class="fadeInLeft">We offer all the main features, allowing you to stop project administration.</p>
+                        <button class="carousel_btn zoomin">Purchase Now</button>
+                      </div>
+                      <div class="d-flex justify-content-end">
+                        <div class="mask1 fadeInUpLeft">
+                          <img src="./assets/images/indexBg1.avif" alt="" class="index_img1">
+                        </div>  
+                      </div>                        
+                    </div>
+                    <div class="carousel-item">
+                      <div class="carousel_content">
+                          <h1 class="fadeInDown">Business<br> Solutions for You</h1>
+                          <p class="fadeInLeft">We provide all of the best features so that you can focus on project management.</p>
+                        <button class="carousel_btn zoomin">Purchase Now</button>
+                      </div>
+                      <div class="d-flex justify-content-end">
+                        <div class="mask1 fadeInUpLeft">
+                          <img src="./assets/images/indexBg2.avif" alt="" class="index_img1">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="carousel_content">
+                        <h1 class="fadeInDown">Business<br> Solutions for You</h1>
+                        <p class="fadeInLeft">We offer all the main features, allowing you to stop project administration.</p>
+                        <button class="carousel_btn zoomin">Purchase Now</button>
+                      </div>
+                      <div class="d-flex justify-content-end">
+                        <div class="mask1 fadeInUpLeft">
+                          <img src="./assets/images/indexBg3.avif" alt="" class="index_img1">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+               <!----- end------->
+
+              <!--------- mobile view -------->
+              <div class="mobile_view_carousel">
+                <div id="carouselExampleDark" class="carousel  slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./assets/images/indexBg1.avif" class="d-block w-100">
+                      <div class="carousel-caption">
+                        <h1 class="fadeInDown">Your Business Solutions</h1>
+                        <p class="fadeInDown">We provide all the best features so you can stopping<br> on your project management.</p>
+                        <button class="carousel_btn ">Purchase Now</button>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/indexBg2.avif" class="d-block w-100">
+                        <div class="carousel-caption">
+                          <h1 class="fadeInDown">Your Business Solutions</h1>
+                        <p class="fadeInDown">We provide all the best features so you can stopping<br> on your project management.</p>
+                        <button class="carousel_btn ">Purchase Now</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/indexBg3.avif" class="d-block w-100">
+                        <div class="carousel-caption">
+                          <h1 class="fadeInDown">Your Business Solutions</h1>
+                        <p class="fadeInDown">We provide all the best features so you can stopping<br> on your project management.</p>
+                        <button class="carousel_btn ">Purchase Now</button>
+                        </div>
+                    </div>
+                  </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                </div>
+              </div>
+
+            </section>
+            <!------ End ------->
+
+            <!---------- Our Features -------->
+            <section class="feature_section" id="feature_section">
+              <div class="feature_row">
+                <h1>Our Features</h1>
+                <div class="titleborder"></div>
+              </div>
+              <div class="feature_cards_div container">
+                <div class="row mx-0 d-flex justify-content-center align-items-center text-center">
+                  <div class="col-lg-3 col-md-6 col-12 feature-cards" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="card" style="width: 18rem;">
+                      <figure><img src="./assets/images/feature-1.jpeg" class="card-img-top">  </figure>
+                      <div class="card-body">
+                        <h5 class="card-title">Design & Coding</h5>
+                        <p class="card-text">Developer writes instructions describing the information and tasks</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-12 feature-cards" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="card" style="width: 18rem;">
+                      <figure><img src="./assets/images/feature2.jpeg" class="card-img-top"></figure>
+                      <div class="card-body">
+                        <h5 class="card-title">Create strong team as an asset</h5>
+                        <p class="card-text">A resource that other members of your team can rely on</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-12 feature-cards" data-aos="flip-left" data-aos-easing="ease-out-cubic"  data-aos-duration="2000">
+                    <div class="card" style="width: 18rem;">
+                      <figure><img src="./assets/images/feature3.jpeg" class="card-img-top"></figure>
+                      <div class="card-body">
+                        <h5 class="card-title">Provide Excellent Customer Service</h5>
+                        <p class="card-text">Great customer service is quick, easy, personalized, and empathetic</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-12 feature-cards" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="card" style="width: 18rem;">
+                      <figure><img src="./assets/images/feature4.jpeg" class="card-img-top"></figure>
+                      <div class="card-body">
+                        <h5 class="card-title">Technologically updated</h5>
+                        <p class="card-text">Any Error correction or update of the Software developed subsequent to the Effective Date that does not implement additional features or functions.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </section>
+            <!--------- End ---------->
+
+            <!---------- About us -------->
+            <section class="about_section" id="about_section">
+                <div class="row about_row" data-aos="zoom-in">
+                  <div class="col-lg-4 col-md-4 col-12 our_pic">
+                    <div class="about_img_col">
+                      <img src="./assets/images/aboutusImg.avif" class="our_img">
+                    </div>
+                  </div>
+                  <div class="col-lg-7 col-md-7 col-12 our_about">
+                    <div class="about_content">
+                      <div class="about-title">
+                        <h1>About Us</h1>
+                        <div class="titleborder"></div>
+                      </div>
+                      <div>
+                        <p class="about_para">Vision is to provide AR / VR/ MR platform applications for smartphones, tablets and wearables that empower consumers with valuable visual experiences. We augment the real and virtual world with fun, emotional, educational and timely insights. Augray provides a disruptive medium to consume information in a way technology has never been able to do.</p>
+                      </div>
+                      <div>
+                        <div class="row">
+                          <div class="col-md-12 col-lg-6 col-12 about_points" data-aos="zoom-in-down">
+                            <div><i class="bi bi-check-circle"></i></div>
+                            <div class="ms-4">
+                              <h4>Starting New Project</h4>
+                              <p class="about_para">Create a new idea for client project</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12 col-lg-6 col-12 about_points" data-aos="zoom-in-down">
+                            <div><i class="bi bi-check-circle"></i></div>
+                            <div class="ms-4">
+                              <h4>Updateing Our Projects</h4>
+                              <p class="about_para">Update our new idea for  project</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12 col-lg-6 col-12 about_points" data-aos="zoom-in-down">
+                            <div><i class="bi bi-check-circle"></i></div>
+                            <div class="ms-4">
+                              <h4>Create New Environment</h4>
+                              <p class="about_para">Create a new environment idea for client project</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12 col-lg-6 col-12 about_points" data-aos="zoom-in-down">
+                            <div><i class="bi bi-check-circle"></i></div>
+                            <div class="ms-4">
+                              <h4>Create Our Own Idea</h4>
+                              <p class="about_para">Create a new idea for client project</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <!--------- End ---------->
+
+            <!-- ======= process Section ======= -->
+            <section id="process" class="process_section">
+                <div class="content container">
+                    <div class="process_row" data-aos="flip-right">
+                        <h2>Process</h2>
+                        <p class="mb-4">https://miro.com/app/board/uXjVPY4kAQk=/ </p>
+                        <div class="titleborder"></div>
+                    </div>
+                    <div class="process_details">
+                    <ul>
+                        <div class="process_step1 mb-4" data-aos="fade-right">
+                            <li><i class="bi bi-arrow-right-circle-fill"></i>How can I avail a scholarship?</li>
+                            <p>Availing a scholarship is a three stage process. The first step is to use the application form and provide a write up of yourself and the need for scholarship. Attaching the required documents and references is a must. The second stage is a verification stage where the member from the trust would be conducting a verification to validate the information. The member then pushes you into a pool of shortlisted applications. The third step, the member sends out scholarship invitations after an internal selection process to selected talents based on the academic scores, extracurricular talents and comparative merit of other students in the pool. One can drop and email or contact the trust for a detailed explanation.</p>
+                        </div>
+                        <div class="process_step2 mb-4" data-aos="fade-left">
+                            <li><i class="bi bi-arrow-right-circle-fill"></i> How do I donate?</li>
+                            <p>Or you can email us specifying your interest. We will send you a donation link. </p>
+                        </div>
+                        <div class="process_step3 mb-4" data-aos="fade-right">
+                            <li><i class="bi bi-arrow-right-circle-fill"></i>How do I participate as a volunteer? </li>
+                            <p>Drop us an email or contact us over the phone. You will be asked to submit a write up of your interests and further asked for a government ID proof if you have been shortlisted to be a part of the crew.</p>
+                        </div>
+                        <div class="process_step4 mb-4" data-aos="fade-left">
+                            <li><i class="bi bi-arrow-right-circle-fill"></i>How do I apply for a skill development program at my home? </li>
+                        <p>You can use the google form below and send us the information along with a write up for what program you would want to conduct. Our members will connect with you. Remember to submit the specified information and documents in the form.</p>
+                        </div>
+                        <div class="process_step5 mb-4" data-aos="fade-right">
+                            <li><i class="bi bi-arrow-right-circle-fill"></i>How do I apply for an emergency fund raising program?</li>
+                        <p>You can use the google form below and send us all the information about the patient, the reference doctor and the condition of the patient. We will be making a quick scrutiny of it and connecting with you for further process upon successful verification and validation of need.</p>
+                        </div>
+                    </ul>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                </div>
+            </section>
+            <!-- End process Section -->
+
+            <!--------- Services  Section -------->
+            <section class="service_section" id="service_section">
+              <div class="service-title">
+                <h1>Our Services</h1>
+                <div class="titleborder"></div>
+              </div>
+              <div class="service_cards">
+                <div class="row">
+                    <div class="card_col col-lg-3 col-md-6 col-sm-3 col-12">
+                      <div class="hex_card">
+                        <div class="hexagon hex1" data-aos="zoom-in">
+                          <div class="card_content">
+                            <span><i class="fa fa-pencil card_icon" aria-hidden="true"></i></span>
+                            <h2>Web Design</h2>
+                            <p> Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website.</p>
+                          </div>
+                          <div class="bubbles hex1_bbl hide">
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card_col col-lg-3 col-md-6 col-sm-3 col-12">
+                      <div class="hex_card">
+                        <div class="hexagon hex2" data-aos="zoom-in">
+                          <div class="card_content">
+                            <span><i class="fa-solid fa-link card_icon"></i></span>
+                            <h2>UX Map</h2>
+                            <p>A powerful technique of visualizing the entire experience of the end-users with a brand, app or any product.</p>
+                          </div>
+                          <div class="bubbles hex2_bbl hide">
+                              <div class="bubble"></div>
+                              <div class="bubble"></div>
+                              <div class="bubble"></div>
+                              <div class="bubble"></div>
+                              <div class="bubble"></div>
+                              <div class="bubble"></div>
+                              <div class="bubble"></div>
+                              <div class="bubble"></div>
+                              <div class="bubble"></div>
+                              <div class="bubble"></div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card_col col-lg-3 col-md-6 col-sm-3 col-12">
+                      <div class="hex_card">
+                        <div class="hexagon hex3" data-aos="zoom-in">
+                          <div class="card_content">
+                            <span><i class="fa-sharp fa-solid fa-gears card_icon"></i></span>
+                            <h2>Software Code</h2>
+                            <p>The set of instructions, or a system of rules, written in a particular programming language.</p>
+                          </div>
+                          <div class="bubbles hex3_bbl hide">
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card_col col-lg-3 col-md-6 col-sm-3 col-12">
+                      <div class="hex_card">
+                        <div class="hexagon hex4" data-aos="zoom-in">
+                          <div class="card_content">
+                            <span><i class="fa-solid fa-chart-column card_icon"></i></span>
+                            <h2>Data Analytices</h2>
+                            <p>Data analytics converts raw data into actionable insights.</p>
+                          </div>
+                          <div class="bubbles hex4_bbl hide">
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                 </div>
+                </div>
+            </section>
+            <!------- End ------>
+
+            <!---------- Our Team -------->
+            <section class="team_section" id="team_section">
+              <div class="team_row">
+                <h1>Our Team</h1>
+                <div class="titleborder"></div>
+              </div>
+              <div class="row">
+                  <div class="team_mets team1 col-lg-3 col-md-6 col-12">
+                    <div class="team_list" data-aos="flip-left">
+                      <div class="team_met_pic">
+                        <img src="./assets/images/team-a.jpeg">
+                        <h2>David Jonson</h2>
+                        <p>Project Manager</p>
+                      </div>
+                       <div class="team_hexagon team1_hex">
+                        <div class="bubbles team1_bubl hide">
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                        </div>
+                       </div>
+                       <div class="team_social_icon">
+                        <p class="member_text">The digital project manager provides focus for the team on their various projects.</p>
+                        <a target="_blank" href="#"><i class="fa-brands fa-facebook-f move-up"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-twitter move-up"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-instagram move-up"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-pinterest-p move-up"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in move-up"></i></a>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="team_mets team2 col-lg-3 col-md-6 col-12">
+                    <div class="team_list" data-aos="flip-left">
+                      <div class="team_met_pic">
+                        <img src="./assets/images/team-b.jpeg">
+                        <h2>John Deo</h2>
+                        <p>Front-end developer</p>
+                      </div>
+                       <div class="team_hexagon team2_hex">
+                        <div class="bubbles team2_bubl hide">
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                        </div>
+                       </div>
+                       <div class="team_social_icon">
+                        <p class="member_text">The front-end developer takes care of the “frontend” or “client side”:</p>
+                        <a target="_blank" href="#"><i class="fa-brands fa-facebook-f move-up"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-twitter move-up"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-instagram move-up"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-pinterest-p move-up"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in move-up"></i></a>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="team_mets team3 col-lg-3 col-md-6 col-12">
+                    <div class="team_list" data-aos="flip-left">
+                      <div class="team_met_pic">
+                        <img src="./assets/images/team-c.jpeg">
+                        <h2>Sridhar</h2>
+                        <p>Back-end developer</p>
+                      </div>
+                       <div class="team_hexagon team3_hex">
+                        <div class="bubbles team3_bubl hide">
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                        </div>
+                       </div>
+                       <div class="team_social_icon">
+                        <p class="member_text">The back-end developer uses programming languages like Java, .NET and PHP. </p>
+                        <a target="_blank" href="#"><i class="fa-brands fa-facebook-f move-up"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-twitter move-up"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-instagram move-up"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-pinterest-p move-up"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in move-up"></i></a>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="team_mets team4 col-lg-3 col-md-6 col-12">
+                    <div class="team_list" data-aos="flip-left">
+                      <div class="team_met_pic">
+                        <img src="./assets/images/team-d.jpeg">
+                        <h2>Shakthi</h2>
+                        <p>UX designer/Graphic designer</p>
+                      </div>
+                       <div class="team_hexagon team4_hex">
+                        <div class="bubbles team4_bubl hide">
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                          <div class="bubble"></div>
+                        </div>
+                       </div>
+                       <div class="team_social_icon">
+                        <p class="member_text">The UX (user experience) designer is in charge of mapping out the website</p>
+                        <a target="_blank" href="#"><i class="fa-brands fa-facebook-f move-up"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-twitter move-up"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-instagram move-up"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-pinterest-p move-up"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in move-up"></i></a>
+                       </div>
+                    </div>
+                  </div>
+              </div>
+            </section>
+            <!------- End ------>
+
+            <!---------- Contact Us -------->
+            <section class="contact_section" id="contact_section">
+              <div class="contact_row">
+                <h1>Contact Us</h1>
+                <div class="titleborder"></div>
+              </div>
+              <div class="contact_div ">
+                <div class="row">
+                  <div class="col-md-7 col-lg-7 col-12">
+                    <form class="contact_form" data-aos="fade-right">
+                      <div class="contact_heading"><h1>Enquiry Now</h1></div>
+                      <input type="text" class="name_input input_box" placeholder="Your Name">
+                      <input type="email" class="email_input input_box" placeholder="Your Email" required>
+                      <input type="text" class="subject_input input_box" placeholder="Subject">
+                      <textarea type="text" class="input_box" placeholder="Your Message"></textarea>
+                      <div class="msg_submit_btn"><button class="send_msg" type="submit">Submit</button></div>
+                    </form>
+                  </div>
+                  <div class="col-md-5 col-lg-5 col-12" data-aos="fade-left">
+                      <div class="info">  
+        
+                        <div class="email">
+                        <i class="bi bi-envelope"></i>
+                        <div>
+                          <h5>Email:</h5>
+                          <p>info_myteam.com</p></div>
+                        </div>
+        
+                        <div class="phone">
+                        <i class="bi bi-phone"></i>
+                        <div>
+                          <h5>Call:</h5>
+                          <p>+91 9876543210 </p>
+                          <p>+91 8907654321 </p>
+                        </div>
+                        </div>
+
+                        <div class="address">
+                          <i class="bi bi-geo-alt"></i>
+                          <div>
+                            <h5>Location:</h5>
+                            <p>A108 Adam Street, New York, NY 535022</p>
+                          </div>
+                        </div>
+                        <div class="social_media d-flex">
+                          <i class="fa-brands fa-facebook-f"></i>
+                          <i class="fa-brands fa-twitter"></i>
+                          <i class="fa-brands fa-instagram"></i>
+                          <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    <div class="check_map">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31094.988090993702!2d80.26634392159649!3d13.043722361739665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52689bb60132bb%3A0x549cf8edf62b60a!2sMarina%20Beach!5e0!3m2!1sen!2sin!4v1664189482127!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </section>
+            <!------- End ------>
+
+            <!-------- Footer ------->
+            <section class="footer_section">
+              <footer class="bg-secondary text-center text-white">
+              <div class="container p-4 pb-0">
+                <section class="mb-4">
+                  <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+                  <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+                  <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+                  <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+                </section>
+              </div>
+              <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.3);">
+                © 2020 Copyright:
+                <a class="text-white" href="">YourBusiness.com</a>
+              </div>
+            </footer>
+              
+            </section>
+
+        </main>
+    </div>
+
+    <!-----jquery cdn----->
+    <script src="./assets/cdn/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!----- Bootstrap Js  ------>
+    <script src="./assets/cdn/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-----AOS js----->
+    <script src="./assets/cdn/aos.js"></script>
+    <!-----js----->
+    <script src="./assets/js/task1.js"></script>
+</body>
+</html>
